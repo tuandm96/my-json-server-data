@@ -1,0 +1,30 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Hotel A",
+      "location": "City X"
+    },
+    {
+      "id": 2,
+      "name": "Hotel B",
+      "location": "City Y"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "hotelId": 1,
+      "guestName": "John Doe",
+      "checkInDate": "2023-07-31",
+      "checkOutDate": "2023-08-05"
+    },
+    {
+      "id": 2,
+      "hotelId": 2,
+      "guestName": "Jane Smith",
+      "checkInDate": "2023-08-01",
+      "checkOutDate": "2023-08-07"
+    }
+  ]
+}
